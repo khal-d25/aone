@@ -71,28 +71,23 @@ body{
     justify-content: space-evenly;
     align-items: center;
     background-size: 100%;
-    transition: all 1s ease;
+    transition: height 1s ease;
     
 }
 
 .height{
     height: 0px;
     overflow: hidden;
-    transition: all 1s ease;
+    transition: height 1s ease;
 
 }
 
-#home_btn{
-    transform: rotateZ(180deg);
-    
-}
+
 
 .rot {
     transform: rotateZ(180deg);
 }
-.rot1 {
-    transform: rotateZ(0deg);
-}
+
 
 
 

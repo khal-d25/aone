@@ -1,7 +1,7 @@
 
 
 if(screen.width < 500){
-    // rot1(document)
+    rot(document.querySelector('#home_btn'))
     document.querySelector('#home_screen').classList.toggle('screen')
     document.querySelector('#home_screen').classList.toggle('height')
 }
