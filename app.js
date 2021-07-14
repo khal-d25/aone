@@ -14,13 +14,20 @@ function rot(v){
 
 }
 arrow.forEach(e => {
+   
+    
     e.addEventListener('click',()=>{
-
+        // let screens = document.querySelectorAll('.screen')
+        // screens.classList.toggle('rot')
+        // screens.classList.toggle('screen')
         rot(e)
         const content = e.parentElement.nextElementSibling
         console.dir(content)
         content.classList.toggle('screen')
         content.classList.toggle('height')
+        // document.querySelectorAll('mtabs').classList.toggle('oppa')
+
+        
         
     })
 });
