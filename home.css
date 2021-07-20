@@ -143,11 +143,11 @@ img{
 }
 
 #grid_container{
-    width: 60%;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: minmax(auto, auto);
-    gap: 1rem;
+    gap: 0.8rem;
     grid-template-areas:
     ". . header header header header banner banner banner banner banner banner"
     ". . header header header header banner banner banner banner banner banner"
@@ -179,7 +179,7 @@ img{
     position: fixed;
     top: 30%;
     left: 10%;
-    font-size: 48px;
+    font-size: 36px;
     font-family: var(--dancing-font);
     color: white;
 }
@@ -187,7 +187,7 @@ img{
 #ag span{
     font-family: var(--dancing-font);
     color: white;
-    font-size: 48px;
+    font-size:36px;
 }
 
 #logo_img{
@@ -208,7 +208,7 @@ img{
     color: black;
     text-align: center;
     font-family: var(--color-tabs);
-    font-size: 48px;
+    font-size: 36px;
     line-height: 1.2;
 }
 
@@ -246,7 +246,7 @@ img{
 #abhead{
     font-family: var(--dancing-font);
     margin: 2%;
-    font-size: 48px;
+    font-size: 36px;
 
 }
 
@@ -265,6 +265,7 @@ img{
 
 .mono{
     font-family: var(--font-heading);
+    /* font-size: 16px; */
     margin: 2%;
 
 
@@ -445,8 +446,8 @@ img{
     /* background-repeat: no-repeat; */
     background-size:  cover;
     background-blend-mode: multiply;
-    height: 100%;
-    font-size: 62.5%;
+    height: 100vh;
+    font-size: 60%;
     }
 
     
@@ -537,6 +538,10 @@ img{
     }
     .sq_head h2{
         font-size: 110%;
+    }
+
+    #grid_container{
+        width: 45%;
     }
     
 
