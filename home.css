@@ -34,6 +34,8 @@ html {
     /* background-repeat: no-repeat; */
     background-size: 100% ;
     background-blend-mode: multiply;
+    height: 100%;
+
   }
 
 
@@ -180,6 +182,12 @@ img{
     font-size: 48px;
     font-family: var(--dancing-font);
     color: white;
+}
+
+#ag span{
+    font-family: var(--dancing-font);
+    color: white;
+    font-size: 48px;
 }
 
 #logo_img{
@@ -393,5 +401,100 @@ img{
     margin-top: 0.5rem;
     
 }
+
+
+@media only screen and (max-width: 768px){
+    html{
+ 
+        scroll-behavior: smooth;
+    background: url('assets/body_bg2.jpg') fixed; 
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size:  cover;
+    background-blend-mode: multiply;
+    height: 100%;
+    /* font-size: 62.5%; */
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    html{
+     
+        scroll-behavior: smooth;
+    background: url('assets/body_bg1.jpg') fixed; 
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size:  cover;
+    background-blend-mode: multiply;
+    height: 100%;
+    font-size: 62.5%;
+    }
+
+    
+
+    /* #ag,#abhead{
+        font-size: 70%;
+        
+    } */
+
+    #abt{
+        z-index: -1;
+    }
+
+    #ag{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed; 
+        top:1%;
+        left: 2%;
+        height: fit-content;
+        
+
+
+    }
+
+    #ag span{
+        font-size: 35%;
+        font-family: var(--font-content);
+    }
+/* 
+    p {
+        font-size: 60%;
+
+    }
+    h2 {
+        font-size: 80%;
+
+    } */
+    #nav_mid{
+        height: 6vh;
+        width: 65%;
+        padding-left: 2%;;
+        
+    }
+    #nm_btn{
+        width: 6vh;
+    }
+
+    .mid_items{
+        flex-shrink: 1;
+        font-size: 100%;
+
+    }
+
+    .fa
+    {
+        font-size: 50%;
+    }
+
+    
+    
+
+
+    } ;
+
 
 
