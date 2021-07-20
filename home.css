@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 
 :root{
     --color-l1:#F2F6F5;
@@ -16,10 +17,10 @@
     --font-heading:'Comfortaa', cursive;
     --font-content:'Overpass', sans-serif;
 
-    --dancing-font: 'Dancing Script', cursive;
+    --dancing-font: 'Zen Loop', cursive;
     --plain-font: 'Source Code Pro', monospace;
 
-    --hand-font:'Rock Salt', cursive;
+    --hand-font:'Zen Loop', cursive;
 }
 
 *{
