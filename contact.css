@@ -38,19 +38,19 @@
 }
 
 html { 
-    scroll-behavior: smooth;
-    background: url('assets/body_bg.jpg') fixed; 
-    background-position: center;
-    /* background-repeat: no-repeat; */
-    background-size: 100% ;
-    background-blend-mode: multiply;
-    height: 100%;
-    width: 100%;
-    color: white;
-    font-size: 24px;
-    
+  scroll-behavior: smooth;
+  background: url('assets/body_bg.jpg') fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; position:fixed;
+  width:100%;
+  height:100%;
+  left:0px;
+  top:0px;
+  z-index:-1;
 
-  }
+}
 
   
 
