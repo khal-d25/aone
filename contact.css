@@ -38,14 +38,21 @@
 }
 
 html { 
-  scroll-behavior: smooth;
-  background: url('assets/body_bg.jpg') fixed; 
-  background-position: center;
-  /* background-repeat: no-repeat; */
-  background-size: 100vw 100vh+60px ;
-  
-}
+    scroll-behavior: smooth;
+    background: url('assets/body_bg.jpg') fixed; 
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: 100% ;
+    background-blend-mode: multiply;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    
 
+  }
+
+  
 
   p{
     font-size: var(--font-size3);
@@ -272,7 +279,10 @@ html {
   scroll-behavior: smooth;
   background: url('assets/body_bg1.jpg') fixed; 
   background-position: center;
-  background-size: 100vw 100vh+60px ;
+  /* background-repeat: no-repeat; */
+  background-size:  cover;
+  background-blend-mode: multiply;
+  height: 100vh;
   font-size: 60%;
   }
 
