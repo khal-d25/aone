@@ -12,7 +12,7 @@ window.addEventListener('scroll',(e)=>{
     hd = home.getBoundingClientRect().top
     fd = foot.getBoundingClientRect().top
 
-    if(ld-hd > 100){
+    if(ld-hd > 200){
         logo.style.opacity = '0'
         
     }
@@ -36,11 +36,15 @@ show.forEach((e)=>{
                 f.style.width = '20%'
             })
         }
-        else
-        show.forEach((f)=>{
-            f.style.width = '10%'
-        })
-        e.style.width = '60%'
+        else{
+            show.forEach((g)=>{
+                g.style.width = '10%'
+            
+            })
+            e.style.width = '60%'
+
+        }
+        
 
     })
 })

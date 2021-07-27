@@ -168,6 +168,7 @@ body{
       width: 150%;
       max-height: 80%;
       opacity: 0.8;
+      overflow-x: hidden;
     transform: translate(0,10vh);
 
       
