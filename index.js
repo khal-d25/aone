@@ -50,25 +50,20 @@ show.forEach((e)=>{
 })
 
 
-var lastScrollTop = 0;
-var scroll = 100;
 
-// element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
-window.addEventListener("scroll", function(){ // or window.addEventListener("scroll"....
-   var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
-   if (st > lastScrollTop){
-      window.scrollBy(0,100)
-   } else {
-      // upscroll code
-   }
-   lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
-}, false);
+const photo = document.querySelectorAll('.imgimg')
 
 
+photo.forEach((e)=>{
+    e.addEventListener('click',()=>{
+        e.classList.toggle('imgimg')
+        e.classList.toggle('imgimg1')
+        e.parentElement.classList.toggle('photo')
+        e.parentElement.classList.toggle('photo1')
+        
 
-
-
-
+    })
+})
 
 
 
