@@ -58,8 +58,7 @@ photo.forEach((e)=>{
     e.addEventListener('click',()=>{
         e.classList.toggle('imgimg')
         e.classList.toggle('imgimg1')
-        e.parentElement.classList.toggle('photo')
-        e.parentElement.classList.toggle('photo1')
+       
         
 
     })
