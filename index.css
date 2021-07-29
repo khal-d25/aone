@@ -461,14 +461,7 @@ body{
     margin: auto;
     
 }
-.imgimg1{
-    display: block;
-    max-width: 120%;
-    min-width: 120%;
-    max-height: 120%;
-    min-height: 120%;
-    margin: auto;
-}
+
 
 .name{
     text-align: center;
